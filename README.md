@@ -6,7 +6,7 @@ Example Helm chart for setting up Jaegar oeprator in your EKS cluster.
 Table of Contents
 =================
 
-   * [helm-kiali-operator](#helm-kiali-operator)
+   * [helm-jaegar-operator](#helm-jaegar-operator)
       * [Pre-requisites](#pre-requisites)
          * [Namespace](#namespace)
       * [Install/Upgrade Chart](#installupgrade-chart)
