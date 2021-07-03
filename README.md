@@ -1,6 +1,6 @@
 # helm-jaegar-operator
 
-Example Helm chart for setting up Jaegar oeprator in your EKS cluster.
+Example Helm chart for setting up Jaegar operator in your EKS cluster.
 
 
 Table of Contents
