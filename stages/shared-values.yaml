@@ -1,0 +1,22 @@
+fullnameOverride: jaegar-operator
+
+jaeger:
+  # Specifies whether Jaeger instance should be created
+  create: true
+  
+  # namespace where Jaeger resource should be created default to .Release.Namespace
+  namespace: istio-system
+  
+  spec: 
+    strategy: allInOne
+    
+    allInOne:
+      image: jaegertracing/all-in-one:1.21.0
+      
+    storage:
+      options:
+        memory:
+          max-traces: 10000
+
+rbac:
+  clusterRole: true
